@@ -37,6 +37,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "kim-qian-cloudflare-43"
+          project: "kim-qian-chat"
           entrypoint: "server/index.ts"
           root: ".output"
